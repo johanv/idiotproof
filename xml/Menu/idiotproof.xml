@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+    <item>
+        <path>civicrm/idiotproof/settings</path>
+        <page_callback>CRM_Idiotproof_Form_IdiotproofSettings</page_callback>
+        <title>Idiotproof Settings</title>
+        <access_arguments>access CiviCRM</access_arguments>
+    </item>
+</menu>

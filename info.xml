@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<extension key="cards.iwwa.idiotproof" type="module">
+  <file>idiotproof</file>
+  <name>CivIWWA idiot proof extension</name>
+  <description>Attempt to make CiviCRM more idiot proof</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Johan Vervloet</author>
+    <email>johanv@johanv.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/johanv/civiwwa</url>
+    <url desc="Documentation">https://github.com/johanv/civiwwa</url>
+    <url desc="Support">https://github.com/johanv/civiwwa</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2018-02-05</releaseDate>
+  <version>0.1</version>
+  <compatibility>
+    <ver>4.7</ver>
+  </compatibility>
+  <comments>Humble attempt to make CiviCRM usable for 'less tech
+  savy people'.</comments>
+  <civix>
+    <namespace>CRM/Idiotproof</namespace>
+  </civix>
+  <requires>
+    <ext>cards.iwwa.settingsform</ext>
+    <ext>be.chiro.civi.idcache</ext>
+  </requires>
+</extension>
